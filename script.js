@@ -3,7 +3,7 @@ const nav_name = document.querySelector("h2");
 const classe = document.querySelector("#classe")
 const info = document.querySelector("#info")
 
-let image_list=["razor.png","jedistarship.png","txwing.png"];
+let image_list=["https://github.com/Felipe360flp/Jogo_do_humor/razor.png","https://github.com/Felipe360flp/Jogo_do_humor/jedistarship.png","https://github.com/Felipe360flp/Jogo_do_humor/txwing.png"];
 
 image_Set=image_list[0];
 
