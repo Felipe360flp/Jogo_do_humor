@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("fundo.png");
+}
+
+header{
+    margin: 0cm;
+    border:2px solid darkgoldenrod;
+    background-color: black;
+    padding: 25px;
+}
+
+h1{
+    color:darkgoldenrod;
+    font-size:40px; 
+    text-align:center   
+}
+
+h1:hover{color: yellow;}
+
+#description{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap ; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+.div1{
+    display:flex;
+    flex-direction:column;  
+    justify-content: space-between;
+    width: 200px;
+    padding: 60px;
+    border:2px solid gray;
+    border-radius: 20px;
+    background-color: silver;
+
+}
+
+h2{
+color: black;
+background-color:grey;
+font-size: 40;
+align-self: center;
+text-align: center;
+}
+
+#classe{
+    font-size: 30;
+}
+
+h3{
+    text-align: left;
+}
+
+#info{
+    font-size:  20px;
+    text-align: left;  
+}
+
+.div2{    
+    display:flex;
+    flex-direction:column; 
+    justify-content: space-around;
+    align-items: center; 
+
+}
+
+#bt {
+    margin: 0cm;
+    border:2px solid darkgoldenrod;
+    color:black;
+    border-radius:50px;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:20px;
+    text-decoration:black;
+    background:darkred;
+    width: 95;
+    height: 70;    
+}
+
+#bt:hover{background-color: red;}
+
+footer{
+    width: 100%;
+    background-color:darkgray;
+    color: black;
+    bottom:0;
+    left:0;
+    text-align: center;
+    padding: 2px;
+}
